@@ -27,12 +27,10 @@ The project demonstrates server-side development, API design, and handling appli
 ---
 
 ## 📁 Project Structure
-- `server.js` / `app.js` – main server file  
-- `routes/` – API routes  
-- `controllers/` – logic handling  
+- `server.js` – main server file  
 - `models/` – data structure  
-
-*(Adjust based on your actual project structure)*
+- `public/` – frontend files (HTML, JS)  
+- `img/` – screenshots  
 
 ---
 
@@ -57,14 +55,28 @@ nodemon server.js
 
 ## 📬 Example API Endpoints
 
-| Method | Endpoint        | Description            |
-|--------|----------------|------------------------|
-| GET    | /shifts        | Get all shifts         |
-| POST   | /shifts        | Create new shift       |
-| PUT    | /shifts/:id    | Update shift           |
-| DELETE | /shifts/:id    | Delete shift           |
+| Method | Endpoint        | Description      |
+|--------|----------------|------------------|
+| GET    | /shifts        | Get all shifts   |
+| POST   | /shifts        | Create shift     |
+| PUT    | /shifts/:id    | Update shift     |
+| DELETE | /shifts/:id    | Delete shift     |
 
-*(Adjust according to your implementation)*
+---
+
+## 📸 Screenshots
+
+### Home Page
+![Home](./img/1.png)
+
+### Shifts List
+![Shifts](./img/2.png)
+
+### Create Shift
+![Create](./img/3.png)
+
+### Edit Shift
+![Edit](./img/4.png)
 
 ---
 
